@@ -15,7 +15,9 @@ Sergey Timashov
 Currently I work as an engineer.  
 My goal is to become a Front-End developer.  
 I want to gain knowledge and skills that will be enough to work in the company and I want to develop further.
+
 ---
+
 ### Skills
 - JavaScript Basics
 - HTML5, CSS3
@@ -31,7 +33,7 @@ I want to gain knowledge and skills that will be enough to work in the company a
 First task
 
     function multiply(a, b){
-    return a * b
+        return a * b
     }
 
 ---
