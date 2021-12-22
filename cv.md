@@ -20,7 +20,7 @@ Currently I work as an engineer.
 My goal is to become a Front-End developer.  
 I want to gain knowledge and skills that will be enough to work in the company and I want to develop further.
 ---
-###Skills
+### Skills
 - JavaScript Basics
 - -HTML5, CSS3
 - Java core
@@ -30,16 +30,17 @@ I want to gain knowledge and skills that will be enough to work in the company a
 
 ---
 
-###Code example:
+### Code example:
 
 First task
 
     function multiply(a, b){
     return a * b
     }
+
 ---
 
-###Courses
+### Courses
 
 - HTML, CSS code-basics (complete)
 - JavaScript Manual on learnjavascript.ru (in progress)
@@ -48,7 +49,7 @@ First task
 
 ---
 
-###Languages:
+### Languages:
 
 - Russian (native)
 - English (A1)
