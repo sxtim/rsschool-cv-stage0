@@ -1,7 +1,3 @@
-*rsschool-sv*
-
----
-
 Sergey Timashov
 ----------------
 
@@ -22,7 +18,7 @@ I want to gain knowledge and skills that will be enough to work in the company a
 ---
 ### Skills
 - JavaScript Basics
-- -HTML5, CSS3
+- HTML5, CSS3
 - Java core
 - Git, GitHub
 - IntelliJ IDEA, Phpstorm
