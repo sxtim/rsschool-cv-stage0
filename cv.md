@@ -1,7 +1,7 @@
 Sergey Timashov
 ----------------
 
-![](img/300.jpeg)
+![](assets/img/300.jpeg)
 
 - e-mail: [sxtimx@gmail.com](mailto:sxtimx@gmial.com)
 - telegram: [sergei_timashov](https://t.me/sergei_timashov)
