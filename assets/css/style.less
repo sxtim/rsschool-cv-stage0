@@ -1,5 +1,24 @@
-.main {
-  sub_main {
-    width: 100px;
-  }
+// compress: false;
+@import "vars";
+//для всех  элементов/псевдоэлементов
+//не будет меняться размер блоков
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+html {
+  //1 rem = 15px
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: @black;
+}
+/* Block */
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/person";
