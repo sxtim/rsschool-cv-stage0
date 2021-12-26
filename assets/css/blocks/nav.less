@@ -1,0 +1,29 @@
+// main: ../style.less
+.nav {
+display: flex;
+}
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__item {
+  display: block;
+}
+.nav__link {
+  //padding: 0.5rem 1rem;
+  margin: 0 0 0 2rem;
+  font-size: 0.93rem;
+  color: @black;
+  line-height: 1.06rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  //border: 3px solid transparent;
+  //border-radius: 20px;
+
+  &:hover {
+    border-color: @black;
+  }
+}
