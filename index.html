@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap"
+          rel="stylesheet">
     <!--    для адаптации-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
@@ -27,19 +28,19 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Summary</a>
-                    </li>
-                    <li class="nav__item">
                         <a class="nav__link" href="#">Contacts</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Skills</a>
+                        <a class="nav__link" href="#">Projects</a>
                     </li>
                     <li class="nav__item">
                         <a class="nav__link" href="#">Code style</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Projects</a>
+                        <a class="nav__link" href="#">Summary</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Skills</a>
                     </li>
                     <li class="nav__item">
                         <a class="nav__link" href="#">Education</a>
@@ -51,7 +52,7 @@
 </header>
 <!--    main-->
 <main class="main">
-<!--        contacts-->
+    <!--        contacts-->
     <section class="contacts">
         <div class="container">
             <div class="contacts__inner">
@@ -70,13 +71,75 @@
                             <img src="assets/img/icons/email.svg" alt="image not found">
                         </a>
                     </div>
-                    <a class="btn" href="#">HIRE ME</a>
-                    <button class="btn">SEE MY RESUME</button>
+                    <a class="btn btn--sm" href="#">HIRE ME</a>
+                    <button class="btn btn--sm">SEE MY RESUME</button>
                 </div>
-                <img class="contacts__photo" src="assets/img/portrait.png" alt="image not found">
+                <img class="contacts__photo" src="assets/img/portrait1.png" alt="image not found">
             </div><!-- /.contacts__inner-->
         </div><!-- /.container-->
     </section>
+    <div class="projects">
+        <div class="container">
+            <div class="projects__header">
+                <h2 class="projects__title">Projects</h2>
+                <div class="projects__nav">
+                    <a class="projects__nav-link" href="#">All</a>
+                    <a class="projects__nav-link" href="#">App</a>
+                    <a class="projects__nav-link" href="#">Websites</a>
+                </div>
+            </div>
+            <div class="works">
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-->
+    </div><!-- /.projects-->
 </main>
 </body>
 </html>

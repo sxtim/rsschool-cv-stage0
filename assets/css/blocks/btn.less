@@ -5,10 +5,10 @@
   text-align: center;
 
   /*убираем стили ссылки и кнопки поумолчанию и добавляем свои*/
-  padding: 13px 25px;
+  padding: 0.8em 1.5em;
   text-decoration: none;
   border: 1px @gray solid;
-  border-radius: 30px;
+  border-radius: 3em;
   background: none;
   //добавляем ручку
   cursor: pointer;
@@ -17,6 +17,7 @@
 
 
   font-size: 1.6rem;
+  font-weight: 700;
   color: @black;
   text-transform: uppercase;
   min-width: 170px;
@@ -26,12 +27,18 @@
 
   &:hover {
     background-color: @black;
-    box-shadow: 2px 2px 10px fade(#000000, 30%);
+    box-shadow: 2px 2px 15px fade(#000000, 40%);
     color: @white;
   }
 
   + .btn {
     margin: 0 0 0 15px;
+  }
+/* Modificators */
+  &--sm {
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-width: 2px;
   }
 
 }

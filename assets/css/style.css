@@ -116,7 +116,7 @@ body {
   position: relative;
   display: flex;
   padding: 100px 0 120px 0;
-  background: url("/assets/img/symbols.svg") right top no-repeat;
+  background: url("/assets/img/symbols.png") right bottom no-repeat;
   border-bottom: 1px solid rgba(106, 105, 107, 0.3);
 }
 .contacts__content {
@@ -144,9 +144,9 @@ body {
 }
 .contacts__photo {
   position: absolute;
-  max-width: 25%;
-  bottom: 25px;
-  right: 50px;
+  max-width: 20%;
+  bottom: 10px;
+  right: 100px;
   z-index: 1;
 }
 .social {
@@ -166,25 +166,100 @@ body {
   display: inline-block;
   text-align: center;
   /*убираем стили ссылки и кнопки поумолчанию и добавляем свои*/
-  padding: 13px 25px;
+  padding: 0.8em 1.5em;
   text-decoration: none;
   border: 1px #6a696b solid;
-  border-radius: 30px;
+  border-radius: 3em;
   background: none;
   cursor: pointer;
   font-family: inherit;
   font-size: 1.6rem;
+  font-weight: 700;
   color: #2b2a2c;
   text-transform: uppercase;
   min-width: 170px;
   transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+  /* Modificators */
 }
 .btn:hover {
   background-color: #2b2a2c;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
   color: #ffffff;
 }
 .btn + .btn {
   margin: 0 0 0 15px;
+}
+.btn--sm {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-width: 2px;
+}
+.projects__header {
+  display: flex;
+  margin: 30px 0  35px 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.projects__nav {
+  display: flex;
+  justify-content: center;
+  padding: 0  30px 0 0;
+}
+.projects__nav-link {
+  font-size: 1.4rem;
+  margin: 0 0 0 30px;
+  color: rgba(43, 42, 44, 0.7);
+  text-decoration: none;
+}
+.projects__nav-link:hover {
+  text-decoration: underline;
+}
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px 28px;
+}
+.works__col {
+  flex-basis: 50%;
+  padding: 10px;
+}
+.work {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.2s linear;
+}
+.work:hover {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.work__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.work__content {
+  padding: 10px 10px;
+}
+.work__cat {
+  font-size: 1.4rem;
+  margin: 5px 0;
+  color: #2b2a2c;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.work__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  color: #2b2a2c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.work__date {
+  color: #6a696b;
 }
 /*# sourceMappingURL=style.css.map */
