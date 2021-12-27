@@ -1,7 +1,10 @@
 // main: ../style.less
 .contacts__inner {
+  position: relative;
   display: flex;
   padding: 100px 0 120px 0;
+  background: url("/assets/img/symbols.svg")
+right top no-repeat;
   border-bottom: 1px solid fade(@gray, 30%);
 }
 .contacts__content {
@@ -33,5 +36,9 @@
 }
 
 .contacts__photo {
-  width: 50%;
+  position: absolute;
+  max-width: 25%;
+  bottom: 25px;
+  right: 50px;
+  z-index: 1;
 }
