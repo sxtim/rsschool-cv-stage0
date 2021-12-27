@@ -114,11 +114,45 @@ body {
 }
 .contacts__inner {
   display: flex;
+  padding: 100px 0 120px 0;
+  border-bottom: 1px solid rgba(106, 105, 107, 0.3);
 }
 .contacts__content {
   width: 50%;
 }
+.contacts__subtitle {
+  margin: 0 0 20px 0;
+  font-size: 3.2rem;
+  color: #2b2a2c;
+  line-height: 1.5rem;
+  font-weight: 200;
+}
+.contacts__title {
+  margin: 0 0 8px 0;
+  font-size: 4.5rem;
+  color: #2b2a2c;
+  line-height: 4.8rem;
+  font-weight: 700;
+}
+.contacts__profession {
+  font-size: 1.8rem;
+  margin: 0 0 25px 0;
+  color: rgba(43, 42, 44, 0.4);
+  font-weight: 400;
+}
 .contacts__photo {
   width: 50%;
+}
+.social {
+  display: flex;
+  margin: 0 0 42px 0 ;
+}
+.social__link {
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  transition: transform 0.2s linear;
+}
+.social__link:hover {
+  transform: translateY(-5px);
 }
 /*# sourceMappingURL=style.css.map */
