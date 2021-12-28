@@ -282,7 +282,7 @@ body {
 }
 .about__bigtitle {
   font-size: 16rem;
-  color: rgba(106, 105, 107, 0.15);
+  color: rgba(106, 105, 107, 0.1);
   position: absolute;
   left: 50%;
   transform: translate(-50%);
