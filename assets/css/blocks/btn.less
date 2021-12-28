@@ -1,0 +1,44 @@
+// main: ../style.less
+.btn  {
+  /*стандартное выравнивание*/
+  display: inline-block;
+  text-align: center;
+
+  /*убираем стили ссылки и кнопки поумолчанию и добавляем свои*/
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border: 1px @gray solid;
+  border-radius: 3em;
+  background: none;
+  //добавляем ручку
+  cursor: pointer;
+  //ставим шрифт по умолчанию
+  font-family: inherit;
+
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: @black;
+  text-transform: uppercase;
+  min-width: 170px;
+
+  transition: background-color 0.2s linear,
+  color 0.2s linear, box-shadow 0.2s linear;
+
+  &:hover {
+    background-color: @black;
+    box-shadow: 2px 2px 15px fade(#000000, 40%);
+    color: @white;
+  }
+
+  + .btn {
+    margin: 0 0 0 15px;
+  }
+/* Modificators */
+  &--sm {
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-width: 2px;
+  }
+
+}
