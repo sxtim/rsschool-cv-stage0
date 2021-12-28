@@ -143,9 +143,9 @@ body {
 }
 .contacts__photo {
   position: absolute;
-  max-width: 20%;
+  max-width: 25%;
   bottom: 10px;
-  right: 100px;
+  right: 20px;
   z-index: 1;
 }
 .social {
@@ -272,5 +272,22 @@ body {
 .code__item {
   display: inline-block;
   text-align: left;
+}
+.about__content {
+  padding: 100px 0;
+}
+.about__title {
+  font-size: 2.5rem;
+  margin: 40px 0;
+}
+.about__bigtitle {
+  font-size: 16rem;
+  color: rgba(106, 105, 107, 0.15);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.about__text {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
