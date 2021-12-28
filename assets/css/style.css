@@ -117,7 +117,6 @@ body {
   display: flex;
   padding: 100px 0 120px 0;
   background: url("/assets/img/symbols.png") right bottom no-repeat;
-  border-bottom: 1px solid rgba(106, 105, 107, 0.3);
 }
 .contacts__content {
   width: 50%;
@@ -195,19 +194,17 @@ body {
   border-width: 2px;
 }
 .projects__header {
-  display: flex;
   margin: 30px 0  35px 0;
   flex-direction: row;
   justify-content: space-between;
 }
 .projects__title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .projects__nav {
   display: flex;
   justify-content: center;
-  padding: 0  30px 0 0;
 }
 .projects__nav-link {
   font-size: 1.4rem;
@@ -225,6 +222,7 @@ body {
 }
 .works__col {
   flex-basis: 50%;
+  width: 100%;
   padding: 10px;
 }
 .work {
@@ -261,5 +259,18 @@ body {
 }
 .work__date {
   color: #6a696b;
+}
+.code__header {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.code__sample {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.code__item {
+  display: inline-block;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
