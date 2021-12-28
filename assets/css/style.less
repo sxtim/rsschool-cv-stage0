@@ -1,0 +1,39 @@
+// compress: false;
+@import "vars";
+//для всех  элементов/псевдоэлементов
+//не будет меняться размер блоков
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+html {
+  //1 rem = 10px
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: @black;
+}
+/* Block */
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/person";
+@import "blocks/nav";
+@import "blocks/contacts";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/projects";
+@import "blocks/works";
+@import "blocks/code";
+@import "blocks/about";
+@import "blocks/skills";
+@import "blocks/footer";
