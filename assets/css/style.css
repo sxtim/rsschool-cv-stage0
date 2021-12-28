@@ -259,7 +259,7 @@ body {
 .work__date {
   color: #6a696b;
 }
-.code__header {
+.code__title {
   font-size: 2.5rem;
   text-transform: uppercase;
 }
@@ -288,5 +288,20 @@ body {
 }
 .about__text {
   font-size: 2rem;
+}
+.skills__title {
+  font-size: 2.5rem;
+  margin: 0 0 45px 0;
+}
+.skills__content {
+  display: flex;
+  justify-content: space-around;
+}
+.category__title {
+  font-size: 1.8rem;
+}
+.list__item {
+  font-size: 2rem;
+  line-height: 2.8rem;
 }
 /*# sourceMappingURL=style.css.map */
