@@ -28,22 +28,22 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Contacts</a>
+                        <a class="nav__link" href="#section-contacts">Contacts</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">About myself</a>
+                        <a class="nav__link" href="#section-about">About myself</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Code example</a>
+                        <a class="nav__link" href="#section-code">Code example</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Projects</a>
+                        <a class="nav__link" href="#section-projects">Projects</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Skills</a>
+                        <a class="nav__link" href="#section-skills">Skills</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#">Education</a>
+                        <a class="nav__link" href="#section-skills">Education</a>
                     </li>
                 </ul>
             </nav>
@@ -53,24 +53,30 @@
 <!--    main-->
 <main class="main">
     <!--        contacts-->
-    <section class="contacts">
+    <section class="contacts" id="section-contacts">
         <div class="container">
             <div class="contacts__inner">
                 <div class="contacts__content">
                     <h2 class="contacts__subtitle">Hello, I'm</h2>
                     <h1 class="contacts__title">Timashov Sergey</h1>
                     <div class="contacts__profession">Front-End Developer</div>
-                    <div class="social">
-                        <a class="social__link" href="https://github.com/sxtim">
-                            <img src="assets/img/icons/gh.svg" alt="image not found">
-                        </a>
-                        <a class="social__link" href="https://t.me/sergei_timashov">
-                            <img src="assets/img/icons/tg.svg" alt="image not found">
-                        </a>
-                        <a class="social__link" href="mailto:sxtimx@gmail.com">
-                            <img src="assets/img/icons/email.svg" alt="image not found">
-                        </a>
-                    </div>
+                    <ul class="social">
+                        <li class="contacts__element">
+                            <a class="social__link" href="https://github.com/sxtim">
+                                <img src="assets/img/icons/gh.svg" alt="image not found">
+                            </a>
+                        </li>
+                        <li class="contacts__element">
+                            <a class="social__link" href="https://t.me/sergei_timashov">
+                                <img src="assets/img/icons/tg.svg" alt="image not found">
+                            </a>
+                        </li>
+                        <li class="contacts__element">
+                            <a class="social__link" href="mailto:sxtimx@gmail.com">
+                                <img src="assets/img/icons/email.svg" alt="image not found">
+                            </a>
+                        </li>
+                    </ul>
                     <a class="btn btn--sm" href="#">HIRE ME</a>
                     <button class="btn btn--sm">SEE MY RESUME</button>
                 </div>
@@ -78,21 +84,23 @@
             </div><!-- /.contacts__inner-->
         </div><!-- /.container-->
     </section><!-- /.contacts-->
-    <section class="about">
+    <section class="about" id="section-about">
         <div class="container">
             <div class="about__content">
                 <h3 class="about__title">ABOUT MYSELF</h3>
                 <h2 class="about__bigtitle">WHO AM I</h2>
                 <div class="about__text">
                     <p>Currently I work as an engineer. I like programming and learning new technologies.</p>
-                    <p>My goal is to become a Front-End developer. I want to gain knowledge and skills that will be enough to work in the company and I want to develop further.</p>
-                    <p>I will be glad to join the creation of open source projects. I would like to work under the guidance of an experienced developer to gain practical experience.</p>
+                    <p>My goal is to become a Front-End developer. I want to gain knowledge and skills that will be
+                        enough to work in the company and I want to develop further.</p>
+                    <p>I will be glad to join the creation of open source projects. I would like to work under the
+                        guidance of an experienced developer to gain practical experience.</p>
                     <p>This portfolio website will develop and improve as I will be get new skills and knowledge</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="section-projects">
         <div class="container">
             <div class="projects__header">
                 <h2 class="projects__title">Projects</h2>
@@ -154,19 +162,21 @@
             </div>
         </div><!-- /.container-->
     </section><!-- /.projects-->
-    <section class="code">
+    <section class="code" id="section-code">
         <div class="container">
-            <h2 class="code__title">CODE</h2>
-            <pre class="code__sample">
+            <div class="code__inner">
+                <h2 class="code__title">CODE</h2>
+                <pre class="code__sample">
                 <code>
                 function multiply (a, b) {
                  return a * b;
                 }
                 </code>
             </pre>
+            </div>
         </div>
     </section><!--    code-->
-    <section class="skills">
+    <section class="skills" id="section-skills">
         <div class="container">
             <h2 class="skills__title">SKILLS</h2>
             <div class="skills__content">
@@ -200,7 +210,18 @@
             </div>
         </div>
     </section>
-
 </main>
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                © 2022
+                <a class="footer__link" href="https://github.com/sxtim">sxtim</a>
+            </div>
+            <a class="footer__logo" href="https://rs.school/js/"></a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
