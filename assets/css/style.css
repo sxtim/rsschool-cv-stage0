@@ -116,7 +116,6 @@ body {
   position: relative;
   display: flex;
   padding: 100px 0 120px 0;
-  background: url("/assets/img/symbols.png") right bottom no-repeat;
 }
 .contacts__content {
   width: 50%;
