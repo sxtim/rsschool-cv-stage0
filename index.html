@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap"
+          rel="stylesheet">
+    <!--    для адаптации-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+</head>
+<body>
+<!--    header-->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="person">
+                <div class="person__avatar">
+                    <img src="assets/img/avatar.png" alt="image not found">
+                </div>
+                <div class="person__content">
+                    <div class="person__name">Timashov <br> Sergey</div>
+                    <div class="person__profession">Front-End Developer</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section-contacts">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section-about">About myself</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section-code">Code example</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section-projects">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section-skills">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#section-skills">Education</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--    main-->
+<main class="main">
+    <!--        contacts-->
+    <section class="contacts" id="section-contacts">
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__content">
+                    <h2 class="contacts__subtitle">Hello, I'm</h2>
+                    <h1 class="contacts__title">Timashov Sergey</h1>
+                    <div class="contacts__profession">Front-End Developer</div>
+                    <ul class="social">
+                        <li class="contacts__element">
+                            <a class="social__link" href="https://github.com/sxtim">
+                                <img src="assets/img/icons/gh.svg" alt="image not found">
+                            </a>
+                        </li>
+                        <li class="contacts__element">
+                            <a class="social__link" href="https://t.me/sergei_timashov">
+                                <img src="assets/img/icons/tg.svg" alt="image not found">
+                            </a>
+                        </li>
+                        <li class="contacts__element">
+                            <a class="social__link" href="mailto:sxtimx@gmail.com">
+                                <img src="assets/img/icons/email.svg" alt="image not found">
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="btn btn--sm" href="#">HIRE ME</a>
+                    <button class="btn btn--sm">SEE MY RESUME</button>
+                </div>
+                <img class="contacts__photo" src="assets/img/portrait1.png" alt="image not found">
+            </div><!-- /.contacts__inner-->
+        </div><!-- /.container-->
+    </section><!-- /.contacts-->
+    <section class="about" id="section-about">
+        <div class="container">
+            <div class="about__content">
+                <h3 class="about__title">ABOUT MYSELF</h3>
+                <h2 class="about__bigtitle">WHO AM I</h2>
+                <div class="about__text">
+                    <p>Currently I work as an engineer. I like programming and learning new technologies.</p>
+                    <p>My goal is to become a Front-End developer. I want to gain knowledge and skills that will be
+                        enough to work in the company and I want to develop further.</p>
+                    <p>I will be glad to join the creation of open source projects. I would like to work under the
+                        guidance of an experienced developer to gain practical experience.</p>
+                    <p>This portfolio website will develop and improve as I will be get new skills and knowledge</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="section-projects">
+        <div class="container">
+            <div class="projects__header">
+                <h2 class="projects__title">Projects</h2>
+                <div class="projects__nav">
+                    <a class="projects__nav-link" href="#">All</a>
+                    <a class="projects__nav-link" href="#">App</a>
+                    <a class="projects__nav-link" href="#">Websites</a>
+                </div>
+            </div>
+            <div class="works">
+                <div class="works__col">
+                    <a class="work__link" href="https://github.com/sxtim/spaceShooter">
+                        <div class="work">
+                            <img class="work__image" src="./assets/img/space_shooter.png" alt="image not found">
+                            <div class="work__content">
+                                <div class="work__cat">JAVA app</div>
+                                <div class="work__title">
+                                    Space Shooter
+                                    <time class="work__date" datetime="2021-11-25">2021</time>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__col">
+                    <div class="work">
+                        <img class="work__image" src="https://place-hold.it/580x350" alt="image not found">
+                        <div class="work__content">
+                            <div class="work__cat">Category</div>
+                            <div class="work__title">
+                                Project Name
+                                <time class="work__date" datetime="2021-11-25">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container-->
+    </section><!-- /.projects-->
+    <section class="code" id="section-code">
+        <div class="container">
+            <div class="code__inner">
+                <h2 class="code__title">CODE</h2>
+                <pre class="code__sample">
+                <code>
+                function multiply (a, b) {
+                 return a * b;
+                }
+                </code>
+            </pre>
+            </div>
+        </div>
+    </section><!--    code-->
+    <section class="skills" id="section-skills">
+        <div class="container">
+            <h2 class="skills__title">SKILLS</h2>
+            <div class="skills__content">
+                <div class="skills__category">
+                    <h2 class="category__title">TECH SKILLS</h2>
+                    <ul class="skills__list">
+                        <li class="list__item">JavaScript Basics</li>
+                        <li class="list__item">HTML5, CSS3, Less</li>
+                        <li class="list__item">Java core</li>
+                        <li class="list__item">Git, GitHub</li>
+                        <li class="list__item">IntelliJ IDEA, Phpstorm</li>
+                        <li class="list__item">Linux User, Gimp</li>
+                    </ul>
+                </div>
+                <div class="skills__category">
+                    <h2 class="category__title">COURSES</h2>
+                    <ul class="skills__list">
+                        <li class="list__item">HTML, CSS code-basics (complete)</li>
+                        <li class="list__item">JavaScript Manual on learnjavascript.ru (in progress)</li>
+                        <li class="list__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                        <li class="list__item">English on learnamericanenglishonline.com (in progress)</li>
+                    </ul>
+                </div>
+                <div class="skills__category">
+                    <h2 class="category__title">LANGUAGES</h2>
+                    <ul class="skills__list">
+                        <li class="list__item">Russian (native)</li>
+                        <li class="list__item">English (A1)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__info">
+                © 2022
+                <a class="footer__link" href="https://github.com/sxtim">sxtim</a>
+            </div>
+            <a class="footer__logo" href="https://rs.school/js/">
+                <img src="./assets/img/rs-logo.svg" alt="image logo not found">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
