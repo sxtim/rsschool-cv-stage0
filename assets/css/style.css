@@ -98,7 +98,7 @@ body {
 .nav__link:after {
   content: "";
   width: 0;
-  height: 3px;
+  height: 2px;
   background-color: #2b2a2c;
   position: absolute;
   bottom: -5px;
