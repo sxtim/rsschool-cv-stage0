@@ -25,19 +25,7 @@
   line-height: 1.6rem;
   text-decoration: none;
 
-  &:before {
-    content: "";
-    width: 0;
-    height: 2px;
-    background-color: @white;
 
-    position: absolute;
-    top: -4px;
-    right: 0;
-    z-index: 1;
-
-    transition: width 0.2s linear;
-  }
 
   &:after {
     content:"";
@@ -46,7 +34,7 @@
     background-color: @white;
 
     position: absolute;
-    bottom: -5px;
+    bottom: -4px;
     left: 0;
     z-index: 1;
 
@@ -55,7 +43,6 @@
 
   &:hover,
   &:active{
-    &:before,
     &:after {
       width: 100%;
     }
