@@ -301,13 +301,14 @@ body {
   line-height: 2.8rem;
 }
 .footer {
-  padding: 2rem 0;
-  background-color: #8d8d8e;
+  padding: 1rem 0;
 }
 .footer__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background-color: #8d8d8e;
+  border-radius: 3px;
 }
 .footer__info {
   position: relative;
