@@ -1,13 +1,15 @@
 // main: ../style.less
 .footer {
-  padding: 2rem 0;
-  background-color: @gray-light;
+  padding: 1rem 0;
+
 }
 
 .footer__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background-color: @gray-light;
+  border-radius: 3px;
 
 }
 
@@ -25,20 +27,6 @@
   line-height: 1.6rem;
   text-decoration: none;
 
-  &:before {
-    content: "";
-    width: 0;
-    height: 2px;
-    background-color: @white;
-
-    position: absolute;
-    top: -4px;
-    right: 0;
-    z-index: 1;
-
-    transition: width 0.2s linear;
-  }
-
   &:after {
     content:"";
     width: 0;
@@ -46,7 +34,7 @@
     background-color: @white;
 
     position: absolute;
-    bottom: -5px;
+    bottom: -4px;
     left: 0;
     z-index: 1;
 
@@ -55,7 +43,6 @@
 
   &:hover,
   &:active{
-    &:before,
     &:after {
       width: 100%;
     }
